@@ -1,0 +1,21 @@
+on post-fs-data
+    #Chargingtweak
+    Write /sys/class/power_supply/usb/current_max 5100000
+    Write /sys/class/power_supply/usb/hw_current_max 5100000
+    Write /sys/class/power_supply/usb/pd_current_max 5100000
+    Write /sys/class/power_supply/usb/ctm_current_max 5100000
+    Write /sys/class/power_supply/usb/sdp_current_max 5100000
+    Write /sys/class/power_supply/usb/constant_charge_current 5100000
+    Write /sys/class/power_supply/usb/constant_charge_current_max 5100000
+    Write /sys/class/power_supply/main/current_max 5100000
+    Write /sys/class/power_supply/main/constant_charge_current 5100000
+    Write /sys/class/power_supply/main/constant_charge_current_max 5100000
+    Write /sys/class/power_supply/dc/current_max 5100000
+    Write /sys/class/power_supply/dc/constant_charge_current_max 5100000
+    Write /sys/class/power_supply/parallel/current_max 5100000
+    Write /sys/class/power_supply/parallel/constant_charge_current_max 5100000
+    Write /sys/class/power_supply/battery/current_max 5100000
+    Write /sys/class/power_supply/battery/input_current_max 5100000
+    Write /sys/class/power_supply/battery/constant_charge_current 5100000
+    Write /sys/class/power_supply/battery/constant_charge_current_max 5100000
+    Write /sys/class/power_supply/bms/constant_charge_current_max 5100000
