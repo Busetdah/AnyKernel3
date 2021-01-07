@@ -1,0 +1,6 @@
+id=Turbo Charge Enabler (5000mA)
+name=Turbo Charge Enabler (5000mA)
+version=v1
+versionCode=1
+author=@ThisIsTag
+description=Module for enable 5000mA charge for supported device
