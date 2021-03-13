@@ -42,10 +42,5 @@ dump_boot;
 write_boot;
 ## end install
 
-ui_print "Adding SilonT charge module..."
-rm -rf /data/adb/modules/charge;
-mkdir -p /data/adb/modules/charge;
-cp -rf charge/ /data/adb/modules/;
-
 ui_print "Done!"
 ui_print "";
