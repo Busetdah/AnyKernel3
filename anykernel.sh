@@ -32,13 +32,10 @@ ramdisk_compression=auto;
 set_perm_recursive 0 0 755 644 $ramdisk/*;
 set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
+## AnyKernel install
+split_boot;
 
-## AnyKernel boot install
-dump_boot;
+flash_boot;
+flash_dtbo;
 
-# begin ramdisk changes
-
-# end ramdisk changes
-
-write_boot;
-## end boot install
+## end install
