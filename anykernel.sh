@@ -78,6 +78,8 @@ if mountpoint -q /data; then
   done
 fi
 
+split_boot
+
 flash_boot;
 flash_dtbo;
 
